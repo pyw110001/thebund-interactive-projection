@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "units": "meters",
+  "source": "Crytral Hall.3dm",
+  "sourceSha256": "00c65c1f3de6c2edaa98cde171e8d9e135dbd1ec56fc16504c8e385442d27fb6",
+  "building": {
+    "length": 40,
+    "depth": 12,
+    "facadeHeight": 5.8,
+    "roofEnvelope": [
+      41.054,
+      12.554,
+      1.45
+    ],
+    "measurement": "Regular glazing grid; overhang/entrance rooftop feature excluded"
+  },
+  "screen": {
+    "width": 39.6,
+    "height": 5.4,
+    "top": 5.6,
+    "bottom": 0.2,
+    "setback": 0.4,
+    "glassInteriorPlaneZ": 5.96598,
+    "center": [
+      0,
+      2.9,
+      5.56598
+    ],
+    "defaultCrop": 0.39266822487390823
+  },
+  "cameras": {
+    "exterior": {
+      "position": [
+        -12,
+        12,
+        58
+      ],
+      "target": [
+        0,
+        3,
+        4
+      ]
+    },
+    "interior": {
+      "position": [
+        14,
+        3.3,
+        -3.9
+      ],
+      "target": [
+        -1,
+        2.9,
+        5.59
+      ]
+    },
+    "top": {
+      "position": [
+        0,
+        68,
+        11
+      ],
+      "target": [
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "assumptions": [
+    "One continuous conceptual screen; door openings and mechanical design require engineering development",
+    "No projector count or photometric simulation inferred from the earlier 15m scheme"
+  ],
+  "sourceStats": {
+    "non_surface_objects": 848,
+    "surface_objects": 36726,
+    "expanded_instances": 3100
+  }
+}
